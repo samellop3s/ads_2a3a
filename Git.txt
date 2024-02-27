@@ -5,7 +5,7 @@ git init
 git  config --global user.name "samuel ferreira lopes"
 
 --comando para atualizar o email do usuario (sao apenas infs locais)
-git  config --global user.email "samellop3esprogramas01@gmail.com"
+git  config --global user.email "samuelferreiralopes6@gmail.com"
 
 --alterar branch master para main
 git branch -m master main
