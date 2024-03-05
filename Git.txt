@@ -25,6 +25,9 @@ git commit -m "breve descrição da versao"
 --verificar todas as versoes criadas
 git log
 
+--verificar qual versao tenho no local e no remoto
+git pull
+
 --retornar um determinado commit (versao)
 git reset --hard iddocommit
 
