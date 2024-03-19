@@ -17,3 +17,6 @@ var obj_livro2 = new Livro("Use a cabeça C#", 190);
 var lista = [];
 lista.push(obj_livro1);
 lista.push(obj_livro2);
+
+console.log(lista[0]);
+console.log(lista[1]);
