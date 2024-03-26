@@ -5,9 +5,13 @@ class conta{
 
     get Saldo(){return this.saldp;}
     set Saldo(pSaldo){this.saldo = pSaldo}
+
+    imprimir(){
+        return "Saldo: " + this.saldo;
+    }
 }
 
-class Conta extends Conta {
+class Corrente extends Conta {
     constructor(pLimite){
         super();
         this.Limite = pLimite
@@ -17,6 +21,6 @@ class Conta extends Conta {
     set Limite(pLimite){this.limite = pLimite;}
 }
 
-var obj_cc = new Corrente(1000);
-obj_cc.saldo = 500;
-console.log(obj_cc);
+var obj_conta = new Conta(1000);
+obj_conta.saldo = 700;
+console.log(obj_conta.imprimir());
